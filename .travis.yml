@@ -7,8 +7,6 @@ services:
 addons:
   sonarcloud:
     organization: "rambah"
-    token:
-      secure: "38c75e79d93c9f879ab8ca7d74691d9dc36dfe7e"
 
 env:
   - SONAR_TOKEN=38c75e79d93c9f879ab8ca7d74691d9dc36dfe7e APP_DB_USERNAME=postgres APP_DB_PASSWORD=password APP_DB_NAME=postgres
