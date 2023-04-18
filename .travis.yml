@@ -9,7 +9,7 @@ env:
   - APP_DB_USERNAME=postgres APP_DB_PASSWORD=password APP_DB_NAME=postgres
 
 before_script:
-  - docker compose up -d --build
+  - docker compose up -d
 
 script:
   # Build go
