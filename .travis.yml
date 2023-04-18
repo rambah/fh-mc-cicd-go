@@ -1,0 +1,10 @@
+os: linux
+language: go
+go:
+  - 1.14.x
+services:
+  - postgresql
+  - docker
+script:
+  # Test the code
+  - go test -v .
