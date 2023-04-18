@@ -16,4 +16,4 @@ before_script:
 
 script:
   # Test the code
-  - go test -v ./...
+  - go test -v
