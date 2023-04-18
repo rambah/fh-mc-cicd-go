@@ -13,5 +13,7 @@ before_script:
   - docker compose up -d --build
 
 script:
+  # Build go
+  - go build -v ./main.go
   # Test the code
-  - go test -v
+  - go test -v ./main.go
