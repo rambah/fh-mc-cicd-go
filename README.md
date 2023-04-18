@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/rambah/fh-mc-cicd-go.svg?branch=main)](https://app.travis-ci.com/rambah/fh-mc-cicd-go)
+
 # MC
 
 Ramin Bahadoorifar
