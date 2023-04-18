@@ -134,3 +134,6 @@ Test if all products have been deleted.
 Create a Product, which should begin with the ID 1 again.
 
 ![createAProduct](./docs/imgs/createAProduct.png)
+
+## Travis CI Integration
+
